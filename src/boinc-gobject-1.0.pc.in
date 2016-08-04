@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: boinc-gobject
+Description: GObject-based API for BOINC client
+Version: @VERSION@
+Libs: -L${libdir} -lboinc-gobject-1.0
+Cflags: -I${includedir}/boinc-gobject-1.0
